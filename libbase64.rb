@@ -1,8 +1,8 @@
 require 'formula'
 
 class Libbase64 < Formula
-  url      'https://github.com/palmer-dabbelt/libbase64/archive/v1.0.0_p3.tar.gz'
-  version  '1.0.0_p3'
+  url      'https://github.com/palmer-dabbelt/libbase64/archive/v1.0.0_p4.tar.gz'
+  version  '1.0.0_p4'
   homepage 'https://github.com/palmer-dabbelt/libbase64/'
 
   depends_on 'pkg-config' => :build
