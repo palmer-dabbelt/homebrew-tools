@@ -9,7 +9,7 @@ class Psqlite < Formula
   depends_on 'sqlite3'
 
   def install
-    system "pconfigure", "--verbose", "PREFIX = #{prefix}"
+    system "pconfigure", "PREFIX = #{prefix}"
     system "make", "install"
   end
 end
