@@ -1,7 +1,7 @@
 require 'formula'
 
 class Pconfigure < Formula
-  url      'https://github.com/palmer-dabbelt/pconfigure/archive/v0.12.1.tar.gz'
+  url      'https://github.com/palmer-dabbelt/pconfigure/archive/v0.12.2.tar.gz'
   homepage 'https://github.com/palmer-dabbelt/pconfigure/'
 
   depends_on 'pkg-config' => :build
