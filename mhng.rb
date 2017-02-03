@@ -7,6 +7,7 @@ class Mhng < Formula
   depends_on 'palmer-dabbelt/tools/pconfigure' => :build
   depends_on 'pkg-config' => :build
   depends_on 'gnutls'
+  depends_on 'msmtp'
   depends_on 'homebrew/dupes/ncurses'
   depends_on 'palmer-dabbelt/tools/psqlite'
   depends_on 'palmer-dabbelt/tools/putil'
