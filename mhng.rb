@@ -1,7 +1,7 @@
 require 'formula'
 
 class Mhng < Formula
-  url      'https://github.com/palmer-dabbelt/mhng/archive/v0.2.2.tar.gz'
+  url      'https://github.com/palmer-dabbelt/mhng/archive/v0.2.3.tar.gz'
   homepage 'https://github.com/palmer-dabbelt/mhng/'
 
   depends_on 'palmer-dabbelt/tools/pconfigure' => :build
